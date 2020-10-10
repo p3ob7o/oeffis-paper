@@ -6,8 +6,8 @@ from utils import get_config, get_logger
 
 logger = get_logger(__name__)
 
-DISPLAY_HEIGHT = 640
-DISPLAY_WIDTH = 384
+DISPLAY_HEIGHT = 880
+DISPLAY_WIDTH = 528
 DISPLAY_SIZE = (DISPLAY_WIDTH, DISPLAY_HEIGHT)
 
 TITLE_FONT = ImageFont.truetype('fonts/Ubuntu-M.ttf', 24)
