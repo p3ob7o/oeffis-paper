@@ -31,7 +31,7 @@ class UIDriver:
             msg_list = []
 
         if self.driver is not None:
-            self.driver.Clear(255)
+            self.driver.Clear(0xFF)
         image_black, image_red = render_exception(err, err_type, msg_list)
         self._show(image_black, image_red)
 
