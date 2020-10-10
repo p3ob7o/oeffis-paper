@@ -38,7 +38,9 @@ class UIDriver:
     def _show(self, image_black, image_red):
         if self.driver is not None:
             # show image on e-paper display
-            self.driver.display(self.driver.getbuffer(image_black), self.driver.getbuffer(image_red))
+            self.driver.display(self.driver.getbuffer(image_black))
+            self.driver.display(self.driver.getbuffer(image_red))
+
         else:
             # show image on monitor
             image_black.show()
