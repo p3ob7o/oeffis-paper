@@ -74,7 +74,7 @@
 
     "wrlinien": {
       "updateInterval": 50,
-      "key": "YOUR-KEY-HERE",
+      "key": "",
       "rbls": [4110, 4119, 4264, 4259, 2709, 345, 2716, 649]
     },
 
