@@ -2,7 +2,7 @@ from .bpm_render import render, render_exception
 from utils import get_config
 from utils import get_logger
 import time
-from lib.waveshare.epd7in5_HD import EPD
+from lib.waveshare.epd7in5b_HD import EPD
 
 logger = get_logger(__name__)
 
