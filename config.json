@@ -6,17 +6,17 @@
   },
 
   "stations": {
-    "avgWaitingTime": 3,
+    "avgWaitingTime": 5,
     "walkingTime": [
       {
-        "station": "Messe-Prater",
+        "station": "Stiftgasse",
+        "time": 2
+      }, {
+        "station": "Volkstheater",
+        "time": 5
+      }, {
+        "station": "Neubaugasse",
         "time": 8
-      }, {
-        "station": "Praterstern",
-        "time": 12
-      }, {
-        "station": "Vorgartenstraße",
-        "time": 10
       }
     ]
   },
@@ -25,7 +25,7 @@
     "wrlinien": {
       "updateInterval": 50,
       "key": "",
-      "rbls": [4110, 4119, 4264, 4259, 2709, 345, 2716, 649]
+      "rbls": [1481, 1441, 4206, 4209, 4909, 4908, 4923, 4918]
     },
 
     "yrno": {
