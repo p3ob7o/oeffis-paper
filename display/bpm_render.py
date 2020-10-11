@@ -57,8 +57,9 @@ def render(display_data, weather_data):
     draw_red.fontmode = "L"  # less antialias of fonts
 
     # Header: Title and Server Time
+    nameofday = time.strftime("%D", display_data['lastUpdate'])
     draw_red.rectangle(((0, 0), (DISPLAY_WIDTH, 42)), fill=0)
-    draw_red.text((10, 10), conf['display']['title'], font=TITLE_FONT, fill=255)
+    draw_red.text((10, 10), conf['display']['nameofday'], font=TITLE_FONT, fill=255)
 
     minute_val = time.strftime("%M", display_data['lastUpdate'])
     hour_val = time.strftime("%H", display_data['lastUpdate'])
